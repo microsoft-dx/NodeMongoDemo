@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Todo.Views.Settings">
+  <StackLayout HorizontalOptions="FillAndExpand" Orientation="Vertical" VerticalOptions="Center">
+    <Entry x:Name="apiUrlEntry" Text="http://localhost:8080" Placeholder="API URL" HorizontalOptions="FillAndExpand"/>
+    <Button Text="Continue" HorizontalOptions="Center" Clicked="ContinueClicked"></Button>
+  </StackLayout>
+
+</ContentPage>
