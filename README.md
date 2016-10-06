@@ -233,7 +233,7 @@ Open the file again, and paste the DocumentDB connection string from the Azure P
 
 ```
 {
-    "db_url": "mongodb://sorinnodedemo:xBNjok1qXdvOvoI4IsCX09qK9SLBc3j5Usmj4BcqDGqksZFUmQDuKhiASSmY5HlWPY2B4JWW4DZLlREVK8vBbg==@sorinnodedemo.documents.azure.com:10250/tododb?ssl=true"
+    "db_url": "mongodb://sorinnodedemo:longpwd...@sorinnodedemo.documents.azure.com:10250/tododb?ssl=true"
 }
 ```   
 
