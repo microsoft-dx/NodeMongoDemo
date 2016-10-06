@@ -171,6 +171,17 @@ Verify that the app displays the data, and you can add, edit, delete items.
  
 ![](images/uwp04.png)
 
+
+If you're on a Mac, you should do the following to run the iOS version:
+
+1. Open the **TodoPCL** solution in Xamarin Studio.
+
+2. Select the **Todo.iOS** project, then click the Play arrow in the toolbar to start the iOS emulator.
+
+![](images/mac01.png)
+
+![](images/mac02.png)
+
 ### <a name="ch4"/>4. Migrate the MongoDb database to Azure DocumentDB
 
 Navigate to the Azure Portal at [https://portal.azure.com](https://portal.azure.com)
