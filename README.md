@@ -1,4 +1,4 @@
-# Moving a Node.js and MongoDb API backend to Microsoft Azure in 15 minutes
+# Moving a Node.js API with MongoDb backend to Microsoft Azure in 15 minutes
 
 This is a quick demo that I put together in order to showcase how easy it is to take an on-premises application written in [Node.js](https://nodejs.org/) (with a [MongoDb](https://www.mongodb.com/) data store) and host it into [Microsoft Azure](https://azure.microsoft.com/)'s PaaS (Platform as a Service) with no servers to manage, and turn-key scalability, security and management.
 
