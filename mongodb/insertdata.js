@@ -7,6 +7,6 @@ db.TodoItems.insertMany(
 	  { name: "Read a new book", notes: "", done: false },
 	  { name: "Run a marathon", notes: "", done: true },
 	  { name: "Pick up package", notes: "", done: true },
-	  { name: "Present @imworld", notes: "in October", done: false }
+	  { name: "Do a presentation", notes: "in November", done: false }
 ]
 );

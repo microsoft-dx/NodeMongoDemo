@@ -31,5 +31,6 @@ app.delete('/todo/:id', jsonParser, function (req, res) {
 
 var port = process.env.PORT || 8080;
 app.listen(port);
+console.log('App is running on port 8080...');
 
 

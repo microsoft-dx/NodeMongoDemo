@@ -1,3 +1,3 @@
 {
-    "db_url": "mongodb://localhost/tododb"
+    "db_url": "mongodb://localhost:27017/tododb"
 }
