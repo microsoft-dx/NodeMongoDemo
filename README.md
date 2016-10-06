@@ -6,19 +6,19 @@ You will find everything you need to replicate this demo in the [GitHub repo](ht
 
 ## Table of Contents
 
-1. [Intro]()
+1. [Intro](#ch1)
 
-2. [What you'll need]()
+2. [What you'll need](#ch2)
 
-3. [Set up the application locally]()
+3. [Set up the application locally](#ch3)
 
-4. [Migrate the MongoDb database to Azure DocumentDB]()
+4. [Migrate the MongoDb database to Azure DocumentDB](#ch4)
 
-5. [Migrate the Node.js application to Azure App Service]()
+5. [Migrate the Node.js application to Azure App Service](#ch5)
 
-6. [Next steps]()
+6. [Next steps](#ch6)
 
-### 1. Intro
+### <a name="ch1"/>1. Intro
 
 If you're writing mobile applications, then you most certainly need a place to store data centrally, do authentication, authorization, send push notifications to the users and so on. Most people build a *backend* for their app for this very reason. 
 
@@ -40,7 +40,7 @@ The latter is a highly distributed (up to petabytes) NoSQL document database tha
 
 The rest of this walkthrough describes the process of migrating a locally-hosted Node.js + MongoDb environment into App Service Mobile Apps + DocumentDB.
 
-### 2. What you'll need
+### <a name="ch2"/>2. What you'll need
 
 1. A PC or laptop with Windows 8.1, Windows 10 or MacOS X.
 2. An Azure subscription. You can get $25 worth of Azure each month for free by signing up for [Visual Studio Dev Essentials](https://www.visualstudio.com/dev-essentials/). Or, you can just get a [free Azure trial](https://azure.microsoft.com/en-us/free/).
@@ -51,7 +51,7 @@ The rest of this walkthrough describes the process of migrating a locally-hosted
 7. An FTP client, this tutorial uses [FileZilla](https://filezilla-project.org/).
 6. (Recommended) A tool like [Postman](https://www.getpostman.com/) to debug and test if you encounter any issues. 
 
-### 3. Set up the application locally
+### <a name="ch3"/>3. Set up the application locally
 
 #### 3.1 MongoDb database
 
@@ -171,7 +171,7 @@ Verify that the app displays the data, and you can add, edit, delete items.
  
 ![](images/uwp04.png)
 
-### 4. Migrate the MongoDb database to Azure DocumentDB
+### <a name="ch4"/>4. Migrate the MongoDb database to Azure DocumentDB
 
 Navigate to the Azure Portal at [https://portal.azure.com](https://portal.azure.com)
 
@@ -251,7 +251,7 @@ App is running on port 8080...
 
 Now if you run Postman or the UWP client app again, they should still work just as they did before.
 
-### 5. Migrate the Node.js application to Azure App Service
+### <a name="ch5"/>5. Migrate the Node.js application to Azure App Service
 
 Now we're gonna take the Node.js API and put that into the Azure App Service container.
 
@@ -322,7 +322,7 @@ And from the mobile app itself (note that you can replace HTTP with HTTPS and it
 
 ![](images/uwp04.png)
 
-### 6. Next steps
+### <a name="ch6"/>6. Next steps
 
 So now you've got a nice REST API with a database backing it up, all up and running in Azure. What are some other things you can explore? How about these:
 
